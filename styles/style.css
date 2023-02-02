@@ -138,7 +138,7 @@ option {
   height: 2rem;
   padding: 3rem;
   transform: rotateX(-45deg);
-  box-shadow: 0 25px 25px rgba(255, 255, 255, 10);
+  box-shadow: 0 25px 25px rgba(255, 255, 255, 0.8);
 }
 
 .row {
@@ -159,4 +159,22 @@ option {
 
 .summary {
   margin-top: 1rem;
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    width: 25rem;
+  }
+
+  .showcase-container li {
+    margin-right: 1rem;
+  }
+
+  .row {
+    column-gap: 0.5rem;
+  }
+
+  .summary {
+    text-align: justify;
+  }
 }
