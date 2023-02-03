@@ -104,7 +104,7 @@ option {
 
 .seating-container .seat:hover {
   cursor: pointer;
-  background-color: var(--selected-clr);
+  /* background-color: var(--selected-clr); */
 }
 
 .seating-container .seat.sold:hover {
